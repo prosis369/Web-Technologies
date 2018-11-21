@@ -1,0 +1,176 @@
+@font-face
+{
+  font-family: Lato;
+  src: url('Lato-Regular.ttf'); 
+}
+
+
+
+body{background-color: black;}
+h1{
+  color: orange;   
+  font-family: Lato; /*font-style: italic; font-weight: lighter;*/
+  font-size: 4em;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -50px;
+  opacity: 0.8}
+
+  h2{
+  color: Orange;   
+  font-family: Lato; /*font-style: italic;/* font-weight: lighter;*/
+  font-size: 28px;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+/*FOR PICTURE MENU*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+    float: right;
+    width: 15%;
+    padding: 0px;
+    position: relative;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 1; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 0.5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 15%;
+    padding: 0px;
+    position: relative;
+}
+
+/* Style the images inside the grid */
+.column2 img {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+/*FOR FOOD MENU*/
+
+.accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 17px;
+    transition: 0.4s;
+    font-family: Lato;
+}
+
+.active:hover{
+    background-color: #ddd;
+    color:black;
+}
+
+
+.accordion:hover {
+    background-color: #696969; 
+    color: white;
+    font-weight: bolder;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.add {
+    background-color: Orange;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.add:hover {
+    background-color: white; /* Green */
+    color: orange;
+    border: 2px solid orange;
+    padding: 2px 6px;
+    cursor:pointer;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+/*RATING*/
+
+
+.rating {
+    float: left;
+    width: 2%;
+    padding: 0px;
+    position: relative;
+}
+
+.black {
+    float: left;
+    width: 45%;
+    padding: 0px;
+    position: relative;
+}
+
+/* Style the images inside the grid */
+.rating img {
+    opacity: 1; 
+}
+
+
+/* Clear floats after the columns */
+.rowrating:after {
+    content: "";
+    display: table;
+    clear: both;
+}
