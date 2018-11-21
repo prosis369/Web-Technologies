@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout and Delivery Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=0.8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="sidebar.css">
+	<link rel="stylesheet" type="text/css" href="topmenu.css">
+		<link rel="icon" type="image/png" href="logo.png" />
+	<style>
+		input[type=text]{
+			width: 50%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+		input[type=email]{
+			width: 75%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+				@font-face
+		{
+		  font-family: font;
+		  src: url('Le Havre Rough Double Line.otf'); 
+		}
+
+				@font-face
+		{
+		  font-family: font2;
+		  src: url('Le Havre Rough OutLine.otf');
+		}
+
+		.add {
+    background-color: Orange;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.add:hover {
+    background-color: white; /* Green */
+    color: orange;
+    border: 2px solid orange;
+    padding: 5px 18px;
+    cursor:pointer;
+}
+
+
+	</style>
+</head>
+<body style="background-color: black">
+  <div class="sidebar">
+  <a href="home.html"><i class="fa fa-home"></i> Home</a>
+  <a href="cart.php"><i class="fa fa-shopping-cart"></i> My Cart</a>
+  <a href="checkout.html"><i class="fa fa-sign-out"></i> Checkout</a>
+  <a href="help.html"><i class="fa fa-question-circle"></i> Help</a>
+</div>
+
+ <h2 style="color: orange; font-size: 60px;font-family: font2;font-style:italic"><center>Contact Details</center></h2>
+ <center>
+ 	<form style="color: white; font-family: Verdana; font-size: 17px" action="data.php" target="cart.php" method="POST">
+ 	<fieldset style="width: 40%" style="align-self: left">
+    <legend style="color: orange;font-size:25px;font-family:font">Personal information:</legend><br>
+
+	Name:
+	<input type="text" name="firstname" style="font-size:20pt"><br><br>
+	Phone:
+	<input type="text" name="lastname" style="font-size:20pt"><br><br>
+	Email:
+	<input type="email" name="Email" style="font-size:20pt"><br><br>
+	</fieldset>
+	<br><br>
+
+	<fieldset style="width: 40%" style="align-self: left">
+    <legend style="color: orange;font-size:25px;font-family:font">Delivery Address:</legend><br>
+
+	Address Line 1:
+	<input type="text" name="addl1" style="font-size:20pt"><br><br>
+	Address Line 2:
+	<input type="text" name="addl2" style="font-size:20pt"><br><br>
+	Address Line 3:
+	<input type="text" name="addl3" style="font-size:20pt"><br><br>
+	Pin/Zip code:
+	<input type="text" name="pin" style="font-size:20pt"><br><br>
+	</fieldset>
+	<br><br>
+
+	<fieldset style="width: 40%" style="align-self: left;">
+    <legend style="color: orange;font-size:25px;font-family:font">Comments/Suggestions:</legend><br>
+
+	<input type="text" name="Comments" style="font-size: 40px" height="20%"><br><br>
+	
+	</fieldset>
+	<br><br>
+
+	<div class="button-section">
+     <span class="privacy-policy">
+     <input type="checkbox" name="field7" required> I agree to FakeSwiggy's Terms and Policy Conditions. 
+     <p></p>
+     </span>
+    </div>
+    <p></p>
+	<label><span> </span><input type="submit" class="add" value="Submit" style="size: 50px" /></label>
+<!-- 	<input type="submit" value="Submit"> -->
+
+ 	</form>
+ </center>
+
+</body>
+</html>

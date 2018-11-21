@@ -1,0 +1,35 @@
+h1{   position: absolute; font-size:50px; font-family: font2; }
+
+
+@font-face
+{
+  font-family: font2;
+  src: url('Le Havre Rough Double Line.otf'); 
+}
+@font-face
+{
+  font-family: font;
+  src: url('Le Havre Rough Outline.otf'); 
+}
+
+#indian {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#continental {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#desserts {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FakeSwiggy - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="sidebar.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+		<link rel="icon" type="image/png" href="logo.png">
+</head>
+<body style="background-color:black">
+
+<div class="sidebar">
+  <a href="home.html"><i class="fa fa-home"></i> Home</a>
+  <a href="cart.php"><i class="fa fa-shopping-cart"></i> My Cart</a>
+  <a href="checkout.html"><i class="fa fa-sign-out"></i> Checkout</a>
+  <a href="help.html"><i class="fa fa-question-circle"></i> Help</a>
+</div>
+
+<div class="main">
+	<img src="logo.png" width="75px" height="75px">
+  <h1 id = "head" style="color:orange">FAKESWIGGY</h1>
+
+  <p style="color:grey;font-size:25px;text-align:right;font-family:Lato;font-style:italic">A small project consisting of extremely real and extremely tempting menu items paired with amazing graphics.<br>- Developers of <b style="color:orange;opacity:0.8">FakeSwiggy</b> </p>
+
+  <img src="swiggy.png" id="swiggy" height="370px" style="position:absolute;">
+
+  <p id="p2" style="color:white;position:absolute;font-family:Lato;font-style:italic;font-size:65px">&nbsp;What are you<br><i style=" color:orange;font-family:font;font-size:90px">CRAVING</i><br>&nbsp;today?</p>
+  <a href="indian.html"><img src="Photo_indian.jpg" width="300px" height="300px" id="indian"></a>
+  <a href="continental.html"><img src="Photo_continental.jpg" width="300px" height="300px" id="continental"></a>
+  <a href="desserts.html"><img src="Photo_desserts.jpg" width="300px" height="300px" id="desserts"></a>
+</div>
+
+<script>
+	var el = document.getElementById("head");
+	el.style.top = "-15px";
+	el.style.left = "255px";
+	var el = document.getElementById("swiggy");
+	el.style.top = "205px";
+	el.style.left = "88px";
+	var el = document.getElementById("p2");
+	el.style.top = "590px";
+	el.style.left = "255px";
+	var el = document.getElementById("indian");
+	el.style.top = "680px";
+	el.style.left = "985px";
+	var el = document.getElementById("continental");
+	el.style.top = "680px";
+	el.style.left = "1300px";
+	var el = document.getElementById("desserts");
+	el.style.top = "680px";
+	el.style.left = "1615px";
+
+
+</script>
+     
+</body>
+</html> 
