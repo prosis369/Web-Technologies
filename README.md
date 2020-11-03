@@ -7,7 +7,7 @@ This is a user-friendly food delivery website that allows the user to browse thr
 The website allows the user to add as many items as they want, saves this data, and then produces the total bill. It also asks for the contact information of the user using an HTML form and saves this data onto the database for future references.
 
 #### Technologies Used:
-* HTML/
+* HTML
 * CSS
 * JavaScript
 * PHP
